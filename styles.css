@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Anton, impact, arial, sans-serif;
+}
+
+body{
+    position: fixed;
+}
+
+li {
+    font-size: 9vw;
+    letter-spacing: .05vh;
+    line-height:95%;
+    transition: color .2s;
+}
+
+li:hover{
+    color: red;
+}
+
+img {
+    height: 90vh;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    background: url("./media/p1.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.leftContent {
+    height: 100vh;
+    padding: 0 2vh 0 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rightContent {
+    width: 100vw;
+    /* height: 50vh; */
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    /* border: 1px solid red; */
+}
+
+.links {
+    position: relative;
+    list-style: none;
+    transform-origin: bottom right;
+    right: 0;
+    bottom: 0;
+    transform: rotate(-90deg) translateX(100%) translateY(75%);
+    color: rgba(255, 255, 255, .6);
+}
