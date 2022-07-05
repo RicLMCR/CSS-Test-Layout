@@ -6,20 +6,22 @@
     font-family: Anton, impact, arial, sans-serif;
 }
 
-body{
+body {
     position: fixed;
 }
 
 li {
     font-size: 9vw;
     letter-spacing: .05vh;
-    line-height:95%;
+    line-height: 100%;
     transition: color .2s;
 }
 
-li:hover{
+li:hover {
+    padding: 0 0 0 2vh;
     color: red;
 }
+
 
 img {
     height: 90vh;
@@ -27,6 +29,7 @@ img {
 
 .content {
     width: 100%;
+    min-width: 340px;
     height: 100vh;
     background: url("./media/p1.png") no-repeat center center fixed;
     background-size: cover;
@@ -45,11 +48,7 @@ img {
 
 .rightContent {
     width: 100vw;
-    /* height: 50vh; */
     display: flex;
-    /* justify-content: flex-start; */
-    /* align-items: flex-start; */
-    /* border: 1px solid red; */
 }
 
 .links {
